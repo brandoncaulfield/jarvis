@@ -1,0 +1,27 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.26"
+clap = { version = "4.3.19", features = ["derive"] }
+reqwest = { version = "0.11.18", features = ["blocking", "json"] }
+openssl = { version = "0.10", features = ["vendored"] }
+serde_json = "1.0.103"
+futures = "0.3.28" 
+serde = { version = "1.0.175", features = ["derive"] }
+colored_json = "3.2.0"
+regex = "1.9.1"
+syntect = "5.0.0"
+colored = "2.0.4"
+indoc = "2.0.3"
+indicatif = "0.17.5"
+spinners = "4.1.0"
+
+[dependencies.tokio]
+version =  "1.29.1"
+features = ["full"]
+
