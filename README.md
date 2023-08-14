@@ -1,4 +1,4 @@
-# jarvis
+# JARVIS
 Building the thing that builds the things
 
 ## Description
